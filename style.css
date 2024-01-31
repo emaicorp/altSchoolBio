@@ -156,7 +156,11 @@ h1{
     text-align: center;
 }
 @media (max-width: 765px) {
-    *{
+    .input-contain{
+        border: none;
+    }
+    .text{
+        border: none;
     }
     body{
         margin: 0;
