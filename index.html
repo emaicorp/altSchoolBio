@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="bio">
     <div class="bioImage">
         <img src="images/mypics.jpg" alt="" srcset="">
     </div>
+</div>
     <div class="bioText">
         <form action="form.html" method="get">
             <div class="inputParent">
@@ -45,23 +47,26 @@
                         <label for="password"> Password</label>
                         <input type="password" name="password" id="password">
                     </div>
+                    <input type="submit" value="Submit Data" class="submit res">
+
                 </div>
                 <div class="text">
                     <h2>BioMetrics Data Collection Form</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem veritatis sunt repellat dicta ut, eum tenetur ipsam, voluptatum sapiente odit atque asperiores veniam. Vero dolorum mollitia optio earum voluptas maiores!</p>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, eveniet non, eum illo soluta molestiae iure aut error veniam expedita totam, qui maxime facilis. Iusto, quis modi consequatur perferendis, impedit, ipsum aliquam exercitationem blanditiis error quaerat ullam sit? Minus laborum eligendi non veniam praesentium rem perferendis quo a officiis facere.</p>
     
-                    <input type="submit" value="Submit Data" class="submit">
+                    <input type="submit" value="Submit Data" class="submit unres">
                     
                 </div>
             </div>
         </form>
     
     </div>
+    </div>
     <div class="experience">
         <div class="table">
-            <table border="1">
-                <thead>
+            <table  cellspacing="" cellpadding="5">
+                <thead class="tableHead" cellspacing="0">
                   <tr>
                     <th>Language</th>
                     <th>Primary Use</th>
@@ -69,7 +74,7 @@
                     <th>Notable Features</th>
                   </tr>
                 </thead>
-                <tbody>
+                <tbody >
                   <tr>
                     <td>Python</td>
                     <td>General-purpose</td>
@@ -102,7 +107,7 @@
                   </tr>
                 </tbody>
               </table>
-        </div>
+       
         <div class="experienceText">
             <p>
                 In the last two weeks, I've immersed myself in the basics of web development, focusing on HTML, CSS, and JavaScript. Simultaneously, I've gained a solid understanding of Git and GitHub, learning to track changes, collaborate efficiently, and navigate the collaborative nature of modern development.
